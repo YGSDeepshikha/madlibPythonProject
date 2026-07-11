@@ -5,12 +5,12 @@ name = input("name: ")
 place = input("place: ")
 adjective = input("adjective: ")
 animal = input("animal: ")
-verb = input("verb: ")
+verb = input("verb+ing: ")
 food = input("food: ")
 
-Story = f" " "
+Story = f"""
 THE GREAT ADVENTURE
-On a pleasant evening, {name} decided to vist {place}. While walking, {name} found a {adjective} {animal} happily {verb}. Feeling curious, {name} shared {food} with {animal}. the{animal} smiled and gladly accepted it. Everyone was suprised since the {animal} is always overconcious and guarded against everyone. From that onwards the people in {place} recongised {name} for the friendly behaviour. " " "
+On a pleasant evening, {name} decided to vist {place}. While walking, {name} found a {adjective} {animal} happily {verb}. Feeling curious, {name} shared {food} with {animal}. the{animal} smiled and gladly accepted it. Everyone was suprised since the {animal} is always overconcious and guarded against everyone. From then onwards the people in {place} recongised {name} for the friendly behaviour. """
 print(Story)
 
   
